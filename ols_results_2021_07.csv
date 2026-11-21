@@ -1,0 +1,16 @@
+model,exposure,outcome,coef,se,pval,ci_lo,ci_hi,r2,n,controls
+M1_baseline,log_density_rad,mortality_rate,-4.0292,0.4322,0.0,-4.8764,-3.1821,0.0285,3073,none
+M2_main,log_density_rad,mortality_rate,-2.0054,0.4169,0.0,-2.8226,-1.1882,0.2857,3073,rucc_2023 + income_10k + pct_uninsured_adults
+S1_primary_only,log_density_rad_primary,mortality_rate,-2.1045,,0.0,-2.9348,-1.2741,,3073,rucc_2023 + income_10k + pct_uninsured_adults
+S2_pathologist,log_density_path,mortality_rate,-3.3568,,0.0,-4.2709,-2.4427,,3073,rucc_2023 + income_10k + pct_uninsured_adults
+S3_incidence_outcome,log_density_rad,incidence_rate,-2.3881,,0.0105,-4.2165,-0.5596,,3018,rucc_2023 + income_10k + pct_uninsured_adults
+S4_no_outliers,log_density_rad,mortality_rate,-2.0422,,0.0,-2.8603,-1.2241,,3042,rucc_2023 + income_10k + pct_uninsured_adults
+S5_rural_only,log_density_rad,mortality_rate,0.6641,,0.3348,-0.6856,2.0137,,1897,rucc_2023 + income_10k + pct_uninsured_adults
+S6_rucc_only,log_density_rad,mortality_rate,-2.7615,,0.0,-3.71,-1.813,,3073,rucc_2023
+S7_2026_nppes_snapshot,log_density_rad,mortality_rate,-2.2349,,0.0,-3.0004,-1.4694,,3073,rucc_2023 + income_10k + pct_uninsured_adults
+S8_rucc_4_5,log_density_rad,mortality_rate,1.9936,,0.13,-0.5873,4.5745,,275,rucc_2023 + income_10k + pct_uninsured_adults
+S8_rucc_6_9,log_density_rad,mortality_rate,0.6907,,0.3785,-0.8464,2.2278,,1622,rucc_2023 + income_10k + pct_uninsured_adults
+S9_density_x_rural_interaction,log_density_rad:rural_indicator,mortality_rate,4.6093,,0.0,3.0793,6.1393,,3073,rural_indicator + income_10k + pct_uninsured_adults (main effects) + interaction
+S10_rural_no_outliers,log_density_rad,mortality_rate,0.5715,,0.4269,-0.8382,1.9811,,1878,rucc_2023 + income_10k + pct_uninsured_adults
+S11_negative_binomial,log_density_rad,mortality_avg_annual_count (offset=log(population_2021)),-0.0313,,0.0682,-0.0649,0.0023,,3073,rucc_2023 + income_10k + pct_uninsured_adults
+S11b_negative_binomial_age_standardized,log_density_rad,mortality_avg_annual_count (offset=log(expected_deaths)),-0.0194,,0.2587,-0.053,0.0142,,3073,rucc_2023 + income_10k + pct_uninsured_adults

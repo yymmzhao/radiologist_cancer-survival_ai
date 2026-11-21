@@ -1,0 +1,26 @@
+Statistic,Value
+OLS M2: β (log_density_rad),-2.0054
+OLS M2: SE,0.4169
+OLS M2: p-value,<0.001
+OLS M2: R²,0.2857
+OLS M2: N,3073
+Moran's I,0.4279
+Moran's I p-value (permutation),0.001
+LM-error statistic,598.0777
+LM-error p-value,0.0
+LM-lag statistic,555.4374
+LM-lag p-value,0.0
+SEM: β (log_density_rad),-1.956
+SEM: SE,0.3648
+SEM: p-value,<0.001
+SEM: Pseudo-R²,0.2819
+SEM: N,3073
+SEM: Lambda,0.4859
+SEM: Lambda p-value,0.0
+SEM (Queen) vs OLS: magnitude change (%),2.5
+Islands (no Queen neighbors),4
+SEM (KNN k=5): β (log_density_rad),-1.9471
+SEM (KNN k=5): SE,0.3644
+SEM (KNN k=5): Lambda,0.474
+SEM (KNN k=5) vs OLS: magnitude change (%),2.9
+SEM (KNN k=5) vs Queen-SEM: beta difference,0.0088

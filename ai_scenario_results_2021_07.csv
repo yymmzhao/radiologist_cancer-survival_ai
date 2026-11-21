@@ -1,0 +1,13 @@
+subgroup,scenario,delta_ai,n_counties,population_total,mean_baseline_mortality,mean_delta_mortality,estimated_deaths_averted
+Extreme shortage (density = 0),Baseline (ΔAI = 0),0.0,1334,22647435,168.3966,0.0,0.0
+Extreme shortage (density = 0),Low (ΔAI = 2.4),2.418,1334,22647435,168.3966,-2.4647,558.2
+Extreme shortage (density = 0),Moderate (ΔAI = 6.0),6.0451,1334,22647435,168.3966,-3.9152,886.7
+Extreme shortage (density = 0),High (ΔAI = 11.6),11.6341,1334,22647435,168.3966,-5.0865,1152.0
+Severe shortage (density < 2.42),Baseline (ΔAI = 0),0.0,1769,50592309,167.0566,0.0,0.0
+Severe shortage (density < 2.42),Low (ΔAI = 2.4),2.418,1769,50592309,167.0566,-2.3194,1173.4
+Severe shortage (density < 2.42),Moderate (ΔAI = 6.0),6.0451,1769,50592309,167.0566,-3.7257,1884.9
+Severe shortage (density < 2.42),High (ΔAI = 11.6),11.6341,1769,50592309,167.0566,-4.8761,2466.9
+Non-shortage (density >= 2.42),Baseline (ΔAI = 0),0.0,1304,277743790,159.0314,0.0,0.0
+Non-shortage (density >= 2.42),Low (ΔAI = 2.4),2.418,1304,277743790,159.0314,-0.4992,1386.4
+Non-shortage (density >= 2.42),Moderate (ΔAI = 6.0),6.0451,1304,277743790,159.0314,-1.0465,2906.7
+Non-shortage (density >= 2.42),High (ΔAI = 11.6),11.6341,1304,277743790,159.0314,-1.6559,4599.3
