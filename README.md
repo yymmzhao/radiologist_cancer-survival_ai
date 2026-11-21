@@ -1,5 +1,7 @@
 # County-Level Radiologist Workforce Density, Cancer Mortality, and the Modeled Impact of AI-Augmented Diagnostic Capacity
 
+[![DOI](https://zenodo.org/badge/1286286234.svg)](https://doi.org/10.5281/zenodo.24428106)
+
 Code and county-level data supporting the manuscript:
 
 > Zhao, Y. *County-Level Radiologist Workforce Density, Cancer Mortality, and the Modeled Impact of AI-Augmented Diagnostic Capacity: A U.S. Ecological Analysis.* Preprint: Research Square, https://doi.org/10.21203/rs.3.rs-11324025/v1
